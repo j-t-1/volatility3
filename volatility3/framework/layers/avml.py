@@ -17,7 +17,6 @@ from volatility3.framework.layers import segmented
 vollog = logging.getLogger(__name__)
 
 try:
-    # TODO: Find library for windows if needed
     try:
         # Linux
         lib_snappy = ctypes.cdll.LoadLibrary("libsnappy.so.1")
